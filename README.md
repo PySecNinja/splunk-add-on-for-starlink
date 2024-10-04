@@ -27,7 +27,7 @@ Execute the `start_all_modes.sh` script to initiate all modes of the Starlink AP
 
 ## Splunk Prerequisites
 
-Ensure that you have created the following index in Splunk:
+Create on splunk indexers:
 ```index=starlink```
 
 
