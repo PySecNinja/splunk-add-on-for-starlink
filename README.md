@@ -20,6 +20,17 @@ To set up the environment, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
+4. Set environment variables depending on UF/HF
+
+   HF/SH/IDX
+   ```bash
+   export $SPLUNK_HOME=/opt/splunk
+   ```
+   UF
+   ```bash
+   export $SPLUNK_HOME=/opt/splunkforwarder
+   ```
+
 
 ## Querying Starlink API
 
