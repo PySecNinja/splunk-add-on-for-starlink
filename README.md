@@ -39,6 +39,16 @@ After installation, verify that:
 1. The `starlink` index is created and visible.
 2. No unwanted inputs are enabled on the indexers.
 
+### More Usage 
+
+Run to see script in the background 
+
+```ps aux | grep dish_grpc_text.py```
+
+#### Stop And Start Scripts
+```start_scripts_in_background.sh```
+```stop _scripts_in_background.sh```
+
 ## Additional Resources
 
 Starlink scripts utilized in this add-on can be found in the following repository:
