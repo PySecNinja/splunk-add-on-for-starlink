@@ -40,4 +40,5 @@ Starlink scripts utilized in this add-on can be found in the following repositor
 
 - [ ] Move logs into the sample logs directory.
 - [ ] Implement a method to send Starlink logs to Splunk.
-
+- [ ] Create Dashboards from the Data pulled.
+- [ ] Create Alerts
