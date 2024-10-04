@@ -1,0 +1,4 @@
+datetimestamp_utc,samples,end_counter,total_ping_drop,count_full_ping_drop,count_obstructed,total_obstructed_ping_drop,count_full_obstructed_ping_drop,count_unscheduled,total_unscheduled_ping_drop,count_full_unscheduled_ping_drop
+2024-10-04T00:12:49,60,57135,0.12916667014360428,0,0,0.0,0,0,0.0,0
+2024-10-04T00:13:49,59,57194,0.0,0,0,0.0,0,0,0.0,0
+2024-10-04T00:14:49,60,57254,0.0,0,0,0.0,0,0,0.0,0
