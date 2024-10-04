@@ -1,5 +1,8 @@
 # Splunk Add-On for Starlink Intrustions
 
+- [ ] TODO
+move my logs into sample logs dir
+
 ## Overview
 
 Install this add on on a universal forwarder in your starlink network. This will allow you to collect data from the starlink API and send it to Splunk for analysis.
