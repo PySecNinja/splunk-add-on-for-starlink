@@ -24,13 +24,16 @@ To set up the environment, follow these steps:
 
    HF/SH/IDX
    ```bash
-   export $SPLUNK_HOME=/opt/splunk
+   export SPLUNK_HOME=/opt/splunk
    ```
    UF
    ```bash
-   export $SPLUNK_HOME=/opt/splunkforwarder
+   export SPLUNK_HOME=/opt/splunkforwarder
    ```
-
+   Check if variable is set
+   ```bash
+   echo $SPLUNK_HOME
+   ```
 
 ## Querying Starlink API
 
