@@ -21,7 +21,7 @@ To set up the environment, follow these steps:
    pip install -r requirements.txt
    ```
 
-## Running the Starlink API
+## Querying the Starlink API
 
 Execute the `start_all_modes.sh` script to initiate all modes of the Starlink API. This script will run `disk_grpc` and establish the logging structure at `bin/logs/*`. We will use `inputs.conf` to monitor these files and send them to Splunk via HEC or syslog.
 
