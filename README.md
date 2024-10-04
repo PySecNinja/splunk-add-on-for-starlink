@@ -2,9 +2,9 @@
 
 ## Overview
 
-This add-on is designed to be installed on a universal forwarder within your Starlink network. It enables the collection of data from the Starlink API, which can then be sent to Splunk for comprehensive analysis.
+This add-on is designed to be installed on a universal forwarder, and/or indexer within your Starlink network. It enables the collection of data from the Starlink API, which can then be sent to Splunk for comprehensive analysis.
 
-## Environment Preparation on UF host
+## Environment Preparation on splunk instance
 
 To set up the environment, follow these steps:
 
@@ -21,13 +21,13 @@ To set up the environment, follow these steps:
    pip install -r requirements.txt
    ```
 
-## Querying the Starlink API
+## Querying Starlink API
 
 Execute the `start_all_modes.sh` script to initiate all modes of the Starlink API. This script will run `disk_grpc` and establish the logging structure at `bin/logs/*`. We will use `inputs.conf` to monitor these files and send them to Splunk via HEC or syslog.
 
-## Splunk Prerequisites
+## Splunk Prereqs
 
-### Indexer Configuration
+### Indexer Config
 
 1. Install the app on your Splunk indexers.
    - The app will automatically detect and use the `indexes.conf` file.
