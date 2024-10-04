@@ -46,7 +46,9 @@ Run to see script in the background
 ```ps aux | grep dish_grpc_text.py```
 
 #### Stop And Start Scripts
+
 ```start_scripts_in_background.sh```
+
 ```stop _scripts_in_background.sh```
 
 ## Additional Resources
