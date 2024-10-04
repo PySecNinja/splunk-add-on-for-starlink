@@ -1,10 +1,10 @@
-# Splunk Add-On for Starlink Intrusions
+# Splunk Add-On for Starlink
 
 ## Overview
 
 This add-on is designed to be installed on a universal forwarder within your Starlink network. It enables the collection of data from the Starlink API, which can then be sent to Splunk for comprehensive analysis.
 
-## Environment Preparation
+## Environment Preparation on UF host
 
 To set up the environment, follow these steps:
 
