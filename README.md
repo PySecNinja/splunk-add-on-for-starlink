@@ -1,22 +1,43 @@
-# Splunk Add-On for Starlink Intrustions
+# Splunk Add-On for Starlink Intrusions
 
 ## Overview
 
-Install this add on on a universal forwarder in your starlink network. This will allow you to collect data from the starlink API and send it to Splunk for analysis.
+This add-on is designed to be installed on a universal forwarder within your Starlink network. It enables the collection of data from the Starlink API, which can then be sent to Splunk for comprehensive analysis.
 
-### Prepare the environment 
+## Environment Preparation
 
-1. ```python -m venv venv```
-2. ```source venv/bin/activate```
-3. ```pip install -r requirements.txt```
+To set up the environment, follow these steps:
 
-### Run the ```start_all_modes.sh``` script to start all modes of the Starlink API. This will run disk_grpc and create the loging structure bin/logs/* we will use inputs.conf to monitor these files and send them to splunk via hec or syslog.
+1. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
+2. Activate the virtual environment:
+   ```bash
+   source venv/bin/activate
+   ```
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-# Splunk Preq
-create 'index=starlink'
+## Running the Starlink API
 
-Starlink Scripts from this repo:
-https://github.com/sparky8512/starlink-grpc-tools
+Execute the `start_all_modes.sh` script to initiate all modes of the Starlink API. This script will run `disk_grpc` and establish the logging structure at `bin/logs/*`. We will use `inputs.conf` to monitor these files and send them to Splunk via HEC or syslog.
 
-- [ ] TODO
-move my logs into sample logs dir
+## Splunk Prerequisites
+
+Ensure that you have created the following index in Splunk:
+```index=starlink```
+
+
+## Additional Resources
+
+Starlink scripts utilized in this add-on can be found in the following repository:
+[Starlink gRPC Tools](https://github.com/sparky8512/starlink-grpc-tools)
+
+## TODO
+
+- [ ] Move logs into the sample logs directory.
+- [ ] Implement a method to send Starlink logs to Splunk.
+
