@@ -1,0 +1,9 @@
+[inputs/tcp%3A%2F%2F9997]
+owner = admin
+version = 9.2.2
+modtime = 1728348181.199271000
+
+[inputs/monitor%3A%2F%2F%2Fopt%2Fsplunk%2Fetc%2Fapps%2Fsplunk-add-on-for-starlink%2Fbin%2Flogs%2F%2A%2F%2A.csv]
+owner = admin
+version = 9.2.2
+modtime = 1728348753.602325000
